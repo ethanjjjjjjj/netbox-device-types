@@ -1,0 +1,40 @@
+manufacturer: HP
+model: Prodesk 600 G5 SFF
+slug: prodesk-600-g5-sff
+description: ''
+default_platform: null
+part_number: ''
+u_height: 2.5
+is_full_depth: false
+subdevice_role: ''
+airflow: front-to-rear
+weight: null
+weight_unit: ''
+comments: ''
+power-ports:
+- name: PSU
+  type: ''
+  maximum_draw: 180
+  allocated_draw: 80
+  label: ''
+  description: ''
+interfaces:
+- name: eth0
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: eth0
+  description: onboard gigabit ethernet
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+module-bays:
+- name: PCIe-0
+  label: ''
+  position: '0'
+  description: PCIe x4
+- name: PCIe-1
+  label: ''
+  position: '1'
+  description: PCIe x16
